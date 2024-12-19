@@ -1,31 +1,31 @@
 package com.ayshriv.kafkaconsumer.binding;
 
 public class Order {
-    private String id;
-    private Double price;
-    private String email;
+    private String orderId;
+    private String orderPrice;
+    private String orderEmail;
 
-    public String getId() {
-        return id;
+    public String getOrderId() {
+        return orderId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
     }
 
-    public Double getPrice() {
-        return price;
+    public String getOrderPrice() {
+        return orderPrice;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
+    public void setOrderPrice(String orderPrice) {
+        this.orderPrice = orderPrice;
     }
 
-    public String getEmail() {
-        return email;
+    public String getOrderEmail() {
+        return orderEmail;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setOrderEmail(String orderEmail) {
+        this.orderEmail = orderEmail;
     }
 }

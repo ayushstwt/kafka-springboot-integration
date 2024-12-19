@@ -1,7 +1,0 @@
-package com.ayshriv.kafkaconsumer.binding;
-
-public class Order {
-    private String orderId;
-    private String orderStatus;
-    
-}

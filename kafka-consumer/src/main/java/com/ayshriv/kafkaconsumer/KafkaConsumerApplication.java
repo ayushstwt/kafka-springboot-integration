@@ -12,7 +12,7 @@ public class KafkaConsumerApplication {
         SpringApplication.run(KafkaConsumerApplication.class, args);
     }
 
-    @KafkaListener(topics = KafkaConstants.TOPIC, groupId="group_ashokit_order")
+    @KafkaListener(topics = KafkaConstants.TOPIC_NAME, groupId="group_ayshriv_order")
     public void subscribeMsg(String order) {
         System.out.print("*** Msg Recieved From Kafka *** :: ");
         System.out.println(order);
